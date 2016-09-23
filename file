@@ -1,0 +1,9 @@
+body{
+background-color: #B1A9CA;
+}
+.quiz1{
+border:100px double pink;
+margin:auto;
+background-color: lightblue;
+width:40%;
+}
