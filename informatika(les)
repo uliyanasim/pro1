@@ -1,0 +1,58 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        Console.Write(" Введите число от 1 до 10 ");
+        metka: int x = int.Parse(Console.ReadLine());
+
+        if (x < 1) goto metka; 
+        Console.WriteLine("Повторите ввод");
+       
+        if (x>10) goto metka;    
+        Console.WriteLine("Повторите ввод");
+        if ((x>1) && (x<3)); 
+        Console.WriteLine("незачет");
+        if ((x > 3) && (x < 10)) ;
+        Console.WriteLine("зачет");
+        Console.ReadLine();
+    }
+}
+
+
+
+using System;
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Введите целое число ");
+        int x = int.Parse(Console.ReadLine());
+       
+        if (x/2 == 0) x=x/2;
+        Console.WriteLine(x);
+        
+        if (x/2 == 1) x=(x+1)/2;
+            Console.WriteLine(x);
+        Console.ReadLine();
+    }
+}
+
+
+
+using System;
+class Program
+{
+    static void Main()
+    {
+        Console.Write(" Введите число ");
+        int x = int.Parse(Console.ReadLine());
+       
+        if (x/4 == 0) x=x/4; 
+        Console.WriteLine(x);
+        if (!(x/4 == 0)) x = x+4; 
+        Console.WriteLine(x);
+        Console.ReadLine();
+    }
+}
+
