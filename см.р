@@ -1,0 +1,26 @@
+<html>
+ <head>
+  <title>Текст</title>
+ </head>
+ <body> 
+   <h1>1.Уравнение</h1>
+   <em>1. x<sup>2</sup>+2x+1=0</em>
+   <br><em>2. (x+1)<sup>x</sup>=(x-1)<sup>2x</sup></em></br>
+   <em>3. sin<sup>2</sup>x=cos(π-x)</em>
+   <h1>2.Таблицы</h1>
+   <h2>2.1 Структура</h2>
+   <table border="1" width="35%" height="15%" cellpadding="5">
+  <tr>
+   <th>  </th> 
+<th>  </th>
+   <th>Строки</th> 
+  </tr> 
+  <tr>
+   <td>Колонки</td>
+   <td>Ячейка A</td> 
+  <td>Ячейка B</td>
+  </tr> 
+ </table>
+
+   </body>
+</html>
