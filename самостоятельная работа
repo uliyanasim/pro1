@@ -40,12 +40,9 @@
      <td class="m" width="40%" height="3%">Ячейка C</td>
      <td class="m" width="40%" height="50%">Ячейка D </td>
      </tr>
-     <style>
-     {border:100px double pink;}
-     </style>
      </table>
      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><h3><big>2.2 Цвета</big></h3><br />
-     <table width="200"  border="1" align="left"> 
+     <table width="200"  border="5" align="left"> 
      <tr>
      <td class="m" bgcolor="red">Красный</td>
      </tr>
@@ -58,6 +55,6 @@
      <tr>
      <td class="m" bgcolor=blue>Синий</td>
      </tr>
-     
-   </table>
+     </table>
    </body> 
+</html>
