@@ -1,0 +1,68 @@
+<html>
+
+<script type= "text/javascript">
+    function check() {
+        q1elem = document.getElementById('q1');
+        if (q1elem.checked) {
+            alert('ЧЕткий )))')
+        } else { alert('не оч (((') };
+
+        q3elem = document.getElementById("q3");
+        reselem = document.getElementById("res");
+        reselem.innerHTML = "Пфффффф" + q3elem.value + '?';
+
+    }
+
+    function show_pic() {
+        //alert('hi');
+        var c1_elem = document.getElementById("c1");
+        var c2_elem = document.getElementById("c2");
+        c1_elem.style.display = 'none';
+        c2_elem.style.display = 'block';
+    }
+    function show_text() {
+        var c1_elem = document.getElementById("c1");
+        var c2_elem = document.getElementById("c2");
+        c1_elem.style.display = 'block';
+        c2_elem.style.display = 'none';
+    }
+ </script>
+ <body>
+   <input id="q1" type=checkbox>
+   <label for="q1">привит от граппа  
+   </label>  
+   <br/>
+   2+2=
+    <input name="q2" type=radio id=q21> <label for=q21>khdkmfh,fjk</label>
+    <input name="q2" type=radio id=q22> <label for=q22>2</label>
+    <input name="q2" type=radio id=q23> <label for=q23>1</label>
+     <input name="q2" type=radio id=q24> <label for=q24>:))0)11)))</label>
+<br/>
+Сколько?
+   <input type="text" id=q3 />
+   <input type=button onclick="check()" value="Zhmi">
+   
+   <div id="res">Answer will be here</div>
+    <br/>
+
+   <table width="100%" border="1">
+     <tr>
+     <td  width="50%" onclick="show_pic()"> Text </td>
+     <td onclick="show_text()"> Pic </td> 
+    </tr>
+
+     <tr>  
+    <td colspan="2">
+
+    <div id="c1">
+    This is my texty
+    </div>
+    
+    <div id="c2"><img src="m.gif"></div>
+
+  </td>
+  </tr>
+  </table>
+
+ </body>
+</html>
