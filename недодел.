@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string str;
+            int k;
+            int a;
+            int s;
+            int d;
+            int l;
+            int m;
+            Console.WriteLine("Введите число:");
+            str = Console.ReadLine();
+            k = int.Parse(str);
+            m=k;
+            l=0;
+            a = 0;
+            s=0;
+            while (k > 0)
+            {
+                a = k % 10;
+                k = k / 10;
+                s = s + 1;
+            }
+            
+
+                Console.WriteLine(s);
+                Console.ReadLine();
+                if (s % 2 == 0) s = s / 2;
+                while (l <= s)
+                { m = m
+                 
+
+        } 
+
+
+        }
+    }
