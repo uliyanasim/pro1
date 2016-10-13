@@ -1,0 +1,150 @@
+<html>
+
+
+ <head>
+ <style> td.m {
+        text-align: center;
+        height: 50px;
+        }
+       li {
+        text-align: center; 
+        }
+      </style>
+  <style>
+   body {
+    background-image: url(bg.jpg); /* Путь к фоновому изображению */
+    background-color: #c7b39b; /* Цвет фона */
+   }
+  </style>
+   </head>
+   <style>
+     h1{
+    color:#462c2a;
+    font-size: 50px;
+    }
+   </style>
+    <style>
+     h2{
+    color:#462c2a;
+    font-size: 35px;
+    }
+   </style>
+   <title><h1>Южная Африканская Республика</h1></title>
+  <style> 
+  .layer2 {
+    margin-left: 17%; /* Отступ слева */
+   }
+  </style>
+  <body> 
+  <div class="layer2">
+   <h1>Южная Африканская Республика</h1>
+  </div>
+   </body>
+  
+<script type= "text/javascript">
+    
+
+
+    function show_pic() {
+        //alert('hi');
+        var c1_elem = document.getElementById("c1");
+        var c2_elem = document.getElementById("c2");
+        var c3_elem = document.getElementById("c3");
+        c1_elem.style.display = 'none';
+        c2_elem.style.display = 'block';
+        c3_elem.style.display = 'none';
+    }
+    function show_text() {
+        var c1_elem = document.getElementById("c1");
+        var c2_elem = document.getElementById("c2");
+        var c3_elem = document.getElementById("c3");
+        c1_elem.style.display = 'block';
+        c2_elem.style.display = 'none';
+        c3_elem.style.display = 'none';
+    }
+   function victorina() {
+        var c1_elem = document.getElementById("c1");
+        var c2_elem = document.getElementById("c2");
+        var c3_elem = document.getElementById("c3");
+        c1_elem.style.display = 'none';
+        c2_elem.style.display = 'none';
+        c3_elem.style.display = 'block';
+    }
+</script>
+
+   <table width="100%" border="1">
+     <tr>
+     <td  class="m" bgcolor=#947572 width="33%" onclick="show_pic()"> <h2>карта</h2> </td>
+     <td  class="m" bgcolor=#947572 width="33%" onclick="show_text()"> <h2>информация о стране</h2> </td> 
+     <td  class="m" bgcolor=#947572 onclick="victorina()"> <h2>опрос</h2> </td> 
+    </tr>
+
+     <tr>  
+    <td colspan="3"   bgcolor=#e8c9c2>
+    <div id="c1">
+    Ю́жно-Африка́нская Респу́блика (ЮА́Р; африк. Republiek van Suid-Afrika, англ. Republic of South Africa) — государство в южной части Африканского континента. На севере граничит с Намибией, Ботсваной и Зимбабве, на северо-востоке — с Мозамбиком и Свазилендом. Внутри территории ЮАР находится государство-анклав Лесото[3].
+
+ЮАР является одной из самых национально разнообразных стран Африки и имеет наибольшую долю белого, азиатского и смешанного населения на континенте. Страна обладает богатыми минеральными ресурсами, а также является самой экономически развитой в Африке и имеет относительно прочные мировые позиции[4]. Единственная африканская страна в G20.
+
+Важнейшим пунктом в истории и политике ЮАР стал расовый конфликт между чёрным большинством и белым меньшинством. Своей кульминации он достиг после того, как в 1948 году был установлен режим апартеида, просуществовавший до 1990-х годов. Инициатором введения дискриминационных законов стала Национальная партия (в СССР её называли Националистической). Эта политика привела к долгой и кровопролитной борьбе, в которой ведущую роль сыграли чёрные активисты, такие как Стив Бико, Десмонд Туту и Нельсон Мандела. Позже к ним присоединились многие белые и цветные (потомки смешанного населения), а также южноафриканцы индийского происхождения. Определённую роль в крахе апартеида сыграло также давление со стороны международного сообщества. В результате, смена политической системы произошла сравнительно мирно: ЮАР — одна из немногих стран Африки, где ни разу не был осуществлён государственный переворот[5].
+
+Новую ЮАР часто называют Радужной страной, этот термин был придуман архиепископом Десмондом Туту (и поддержан Нельсоном Манделой) как метафора нового, разнокультурного и многонационального общества, которое преодолевает разделения, восходящие к эпохе апартеида[6].
+
+Во времена апартеида в ЮАР члены Африканского национального конгресса использовали слово «Азания» для обозначения своей страны, как альтернативу неприемлемому для них тогда официальному названию. Слово «Азания» также применялось в качестве названия ЮАР в официальной китайской дипломатической лексике в то время, когда ЮАР поддерживала дипломатические отношения с Тайванем (не признаваемым Китаем).
+
+ЮАР — первое государство, имевшее, но добровольно отказавшееся от ядерного оружия.
+
+ 
+    </div>
+    
+    <div id="c2"><img src="m.jpg"></div>
+    <div id="c3">
+   <script type="text/javascript">
+    function check() {
+       
+        q1elem = document.getElementById('q1');
+        if (q1elem.checked) {
+            alert('Рады, что наш сайт вам понравился :)')
+        }
+        else {
+            alert('Жаль, мы старались :(')
+        }
+        q3elem = document.getElementById("q3");
+        reselem = document.getElementById("res");
+        reselem.innerHTML = "Вы уверены, что не интересуетесь южной африканской республикой?   " ;
+    }
+</script>
+ 
+
+
+<body>
+ 
+ 
+
+
+<br><p> Вам интересна южная африканская республика?</p><br/>
+<p><input name="q2" type=radio id=q21><label for="q21">да</label></p>
+<p><input name="q2" type=radio id=q22><label for="q22">нет</label></p>
+<p><input name="q2" type=radio id=q23><label for="q23">не определился</label></p>
+ 
+ <p><br />Ваш вриант ответа<br/><br/>
+ <input type="text" id="q3"/></p>
+ 
+
+ <div id="res"> <p>    </p> </div><br/><br/>
+
+ <p><input id="q1" type=checkbox> <label for="q1">2) Поставьть галочку, если наш сайт был вам полезен </label></p><br/>
+
+<p><input type="button" value="Выбрать" onclick="check()" /><p>
+
+  </body>
+
+</div>
+
+
+  </td>
+  </tr>
+  </table>
+
+ </body>
+</html>
