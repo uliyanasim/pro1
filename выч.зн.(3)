@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string str;
+            double x;
+            double g;
+            Console.WriteLine("Введите число:");
+            str = Console.ReadLine();
+            x = double.Parse(str);
+            double y;
+            Console.WriteLine("Введите число:");
+            str = Console.ReadLine();
+            y = double.Parse(str);
+            if ((x > y) && (x < 0)) g = x + Math.Sin(y);
+            else g = 0.5 * x * y;
+            Console.WriteLine(g);
+            Console.ReadLine();
+        }
+    }
+}
