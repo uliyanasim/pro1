@@ -1,0 +1,156 @@
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=ansi'>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<style>
+body {
+	background: url(http://img.wallpaperfolder.com/f/78F37CC52083/middle-earth-nature.jpg) no-repeat;
+	background-size: 100%;
+	font-family: 'Raleway', serif;
+       	font: 15pt 'Raleway', serif;
+     }
+.myButton {
+		display: inline-block;
+  		width: 150px;
+  		height: 60px;
+  		line-height: 50px;
+  		font-size: 20px;
+  		text-align: center;
+  		text-decoration: none;
+  		text-shadow: 0 1px rgba(255,255,255,.2), 0 -1px rgba(0,0,0,.8);
+  		outline: none;
+  		border: none;
+  		border-radius: 10px;
+  		background: #141709 radial-gradient(150% 100% at 50% 5px, #b5a98d, #2b261a);
+  		box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px;
+  		color: #e6dfc9;
+		font-family: 'Raleway', serif;
+       		font: 15pt 'Raleway', serif;
+		cursor: pointer;
+  		user-select: none;
+	  }
+.restart {    
+		color: #29695e;
+		text-shadow: black 1px 3px 1px;
+		text-decoration: none;
+		font-family: 'Open Snas', sans-serif;
+       		font: 20pt 'Open Sans', sans-serif;
+	 }   
+</style>
+<title>Middle-earth.Quiz</title>
+</head>
+<body>
+<style type="text/css">
+.wrapper {
+	 	width: 700px;
+		height: 250px;
+		margin: 0 auto;
+		display: none;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+	 }
+</style>
+
+<script type="text/javascript">
+	var countQuest = 0;
+	var plus = 0;
+	var test_start = 0;
+	
+	function check(num){
+	
+		if(num == 4){ 
+			
+			document.getElementById('area').style.display='block'; //
+			document.getElementById('start').style.display='none';
+			document.getElementById('end').style.display='inline';
+			if(test_start == 0){
+			
+					//Массив вопросов
+				var questions = ["Who is the father of Fëanor?",
+				"Who founded Gondolin?","Who is the first and definitive antagonist of Middle-earth?",
+				"Who controls all the waters of Arda?"];
+					//Массивы вариантов ответов
+				var number1 = ["Finwë","Gandalf","Manve"];	
+				var number2 = ["Elu Thingol","Turgon","Sauron"];	
+				var number3 = ["Celegorm","Elendil","Melkor"];	
+				var number4 = ["Bilbo Baggins","Beren","Saruman"];
+				document.getElementById('question').innerHTML=questions[countQuest];
+				
+				document.getElementById('option1').innerHTML=number1[countQuest];
+				document.getElementById('option2').innerHTML=number2[countQuest];
+				document.getElementById('option3').innerHTML=number3[countQuest];
+				document.getElementById('option4').innerHTML=number4[countQuest];
+				
+					//Массив правильных ответов
+				var answer = [0,1,2,1];
+				
+				test_start = 1;	
+			}
+		}
+		else{
+					//Массив вопросов
+			var questions = ["Who is the father of Fëanor?",
+			"Who founded Gondolin?","Who is the first and definitive antagonist of Middle-earth?",
+			"Who controls all the waters of Arda?"];
+			
+				//Массивы вариантов ответов
+			var number1 = ["Finwë","Gandalf","Manve","Aulë"];	
+			var number2 = ["Elu Thingol","Turgon","Sauron","Ulmo"];	
+			var number3 = ["Celegorm","Elendil","Melkor","Mandos"];	
+			var number4 = ["Bilbo Baggins","Beren","Saruman","Tulkas"];	
+			
+				//Массив правильных ответов
+			var answer = [0,1,2,1];
+			
+			if(num == answer[countQuest]) plus++;
+			
+			if(questions.length - 1> countQuest){
+				countQuest++;
+				
+				document.getElementById('question').innerHTML=questions[countQuest];
+			
+				document.getElementById('option1').innerHTML=number1[countQuest];
+				document.getElementById('option2').innerHTML=number2[countQuest];
+				document.getElementById('option3').innerHTML=number3[countQuest];
+				document.getElementById('option4').innerHTML=number4[countQuest];
+			}
+			else{ 
+			
+				document.getElementById('area').style.display='none';
+				alert('You have ' + plus + ' right answers');
+			}
+		}
+	}
+	
+</script>
+
+	<div style="margin-top: 200px;">
+
+		<div id="area" class="wrapper">
+
+			<center>			
+			
+				<p style="font-size: 38px;font-weight: bold;padding-top: 2px;color: #4c6167;text-shadow: 1px 2px 2px;" id="question"></p>
+				
+				<button onclick="check(0)" class="myButton" id="option1"></button>
+				
+				<button onclick="check(1)" class="myButton" id="option2"></button>
+				
+				<button onclick="check(2)" class="myButton" id="option3"></button>
+				
+				<button onclick="check(3)" class="myButton" id="option4"></button>
+			
+			</center>
+
+		</div>
+	
+	</div>	
+	<br/>
+	<br><center>
+		<button id="start" class="myButton" onclick="check(4)"><p>Start the test</p></button>
+		<script type="text/javascript"> var curent_url = document.URL; document.write("<a id='end' style='display: none;' class='restart' href='" + curent_url + "'><b><b><strong>Start the test again</strong></b></b></a>"); </script>	
+	</center>
+</body>
+</html>
