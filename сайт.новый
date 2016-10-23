@@ -12,7 +12,9 @@
       </style>
   <style>
    body {
-    background-image: url(bg.jpg); /* Путь к фоновому изображению */
+    background-image: url(http://www.wallgrad.ru/_ph/4/184696354.jpg) ; /* Путь к фоновому изображению */
+    background-repeat:no-repeat;
+    background-size: 100%; /* Современные браузеры */
     background-color: #c7b39b; /* Цвет фона */
    }
   </style>
@@ -29,7 +31,7 @@
     font-size: 35px;
     }
    </style>
-   <title><h1>Южная Африканская Республика</h1></title>
+   <title>Южная Африканская Республика</title>
   <style> 
   .layer2 {
     margin-left: 17%; /* Отступ слева */
