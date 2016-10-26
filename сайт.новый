@@ -34,7 +34,7 @@ text-align: center;
        
        
         display: none;
-            background-image: url(http://www.zastavki.com/pictures/originals/2015/World___Africa_Zebras_in_a_field_at_sunset__Africa_105319_.jpg) ;
+            background-image: url(http://wallpaperscraft.ru/image/fon_pyatna_svet_poverhnost_tekstura_50506_2000x1250.jpg) ;
         position: absolute;
         top: 100%;
         
@@ -59,17 +59,19 @@ text-align: center;
         height: 100%;
       }
       #navbar li a {
+        text-decoration: none;
+        text-align: center;
+        color: #020202;
         display: block;
         padding: 20px;
         width: 100px
-        color: #F781BE;
-        text-decoration: none;
-        text-align: center;
+       
+       
        \
       }
       #navbar ul li {display: inline-block; }
-      #navbar li:hover { background-color: red; }
-      #navbar ul li:hover { background-color: #F781BE; }
+      #navbar li:hover { background-color: #c13932; }
+      #navbar ul li:hover { background-color: #ff9271; }
     </style>
   </head>
  
