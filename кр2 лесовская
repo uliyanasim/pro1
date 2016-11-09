@@ -1,0 +1,32 @@
+/* Симонова Ульяна
+   группа 10МИИ3
+   вариант 1
+   9.11.2016  */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double p = 0; //определяем тип переменной
+            double x = 22;//определяем тип переменной
+           
+            while (x < 77) //задаем условие циклу
+            {
+                p = x;
+                x = x + 1;
+                if ((p%15>0)&&(p%3==0)) //условие, при котором выводится число
+                    
+                    Console.WriteLine(p);
+               
+            }
+            Console.ReadLine();
+        }
+    }
+}
