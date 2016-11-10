@@ -1,0 +1,78 @@
+<head>
+    <title>ЮАР</title>
+
+ <style>
+   li.m {
+    width: 25%; /* Ширина блока */
+    text-align: center;
+   
+   }
+  li.p{ width: 100%; /* Ширина блока */
+    text-align: center;}
+   
+  </style>
+<style>
+     h1{
+text-align: center;
+    color:#fa6c28;
+    font-size: 50px;
+ 
+    }
+   </style><style>
+     h2{
+    text-align: center;
+    color:#e9ac5f;
+    font-size: 25px;
+ 
+    }
+   </style><style>
+   body {
+    background-image: url(http://img-fotki.yandex.ru/get/4130/137106206.2bf/0_b5c8c_44d83383_orig.jpg) ; /* Путь к фоновому изображению */
+    background-repeat:no-repeat;
+    background-size: 100%; /* Современные браузеры */
+    background-color: #020202; /* Цвет фона */
+   }
+  </style><style>
+   
+      #navbar ul{
+       
+       
+        display: none;
+        background-image: url(http://wallpaperscraft.ru/image/fon_pyatna_svet_poverhnost_tekstura_50506_2000x1250.jpg) ;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        
+        
+      }
+      #navbar li:hover ul { display: block; }
+      #navbar, #navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar {
+       
+        height: 60px;
+        background-color: #fa6c28;
+        
+       
+       }
+      #navbar li {
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      #navbar li a {
+        text-decoration: none;
+        text-align: center;
+        color: #020202;
+        display: block;
+        padding: 20px;
+        width: 100%;
+
+      }
+      #navbar ul li {display: inline-block; }
+      #navbar li:hover { background-color: #c13932; }
+      #navbar ul li:hover { background-color: #ff9271; }
+    </style></head>
