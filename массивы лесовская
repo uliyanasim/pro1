@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main()
+        {
+            double l = 0;
+            int i = 0;
+            int s = int.Parse(Console.ReadLine());
+            int[] m = new int[s];
+            for (; i<s;i++)
+            {
+                m[i] = int.Parse(Console.ReadLine());
+                l = m[i] + l;
+                
+            }
+            
+              l = l / s;
+              Console.WriteLine(g);
+              Console.ReadLine();
+           
+            }   
+        }
+    }
+
